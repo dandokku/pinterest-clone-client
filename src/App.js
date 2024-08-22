@@ -2,7 +2,7 @@
 
 function App() {
   return (
-    <div className="">Welp</div>
+    <div className="">Welp, this is just the beginning</div>
   );
 }
 
