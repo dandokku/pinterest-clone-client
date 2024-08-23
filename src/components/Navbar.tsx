@@ -17,7 +17,7 @@ function Navbar() {
           <h1 className="text-red text-2xl">Pintereste</h1>
         </div>
         
-        <div className="hidden laptop:block gap-4">
+        <div className="hidden welp laptop:block gap-4">
           <Link to="/">Watch</Link>
           <Link to="/">Explore</Link>
         </div>
