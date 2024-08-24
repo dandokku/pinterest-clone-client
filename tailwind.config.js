@@ -5,11 +5,11 @@ module.exports = {
   ],
   theme: {
     screens: {
-      phone: '400px',
-      tablet: '625px',
-      laptop: '1000px',
-      desktop: '1115px',
-      tv: '1250px'
+      'sm': '400px',
+      'md': '680px',
+      'lg': '1000px',
+      'xl': '1115px',
+      '2xl': '1250px'
     },
     colors: {
       'blue': '#0076D3',

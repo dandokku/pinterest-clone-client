@@ -17,7 +17,7 @@ function Navbar() {
           <h1 className="text-red text-2xl">Pintereste</h1>
         </div>
         
-        <div className="hidden laptop:block gap-4">
+        <div className="hidden md:flex gap-4">
           <Link to="/">Watch</Link>
           <Link to="/">Explore</Link>
         </div>
@@ -40,14 +40,14 @@ function Navbar() {
 
         {/* Dropdown Menu */}
         {isOpen && (
-          <div className="absolute right-0 mt-2 w-48 bg-white shadow-md rounded-md py-2 z-10">
-            <Link to="/" className="block px-4 py-2 hover:bg-gray-100">Watch</Link>
-            <Link to="/" className="block px-4 py-2 hover:bg-gray-100">Explore</Link>
-            <Link to="/" className="block px-4 py-2 hover:bg-gray-100">About</Link>
-            <Link to="/" className="block px-4 py-2 hover:bg-gray-100">Business</Link>
-            <Link to="/" className="block px-4 py-2 hover:bg-gray-100">Blog</Link>
-            <Link to="/" className="block px-4 py-2 hover:bg-gray-100">Log in</Link>
-            <Link to="/" className="block px-4 py-2 hover:bg-gray-100">Sign up</Link>
+          <div className="absolute right-0 mt-2 w-48 h-screen bg-white shadow-md rounded-md p-4 z-10 text-center">
+            <Link to="/" className="block px-4 py-2 hover:text-red">Watch</Link>
+            <Link to="/" className="block px-4 py-2 hover:text-red">Explore</Link>
+            <Link to="/" className="block px-4 py-2 hover:text-red">About</Link>
+            <Link to="/" className="block px-4 py-2 hover:text-red">Business</Link>
+            <Link to="/" className="block px-4 py-2 hover:text-red">Blog</Link>
+            <Link to="/" className="block px-4 py-2 border border-red rounded-md coolRed mb-3">Log in</Link>
+            <Link to="/" className="block px-4 py-2 bg-lightgray rounded-md coolgray">Sign up</Link>
           </div>
         )}
       </div>

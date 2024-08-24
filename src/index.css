@@ -35,13 +35,13 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
+  background: #E2E2E2;
   border-radius: 6px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #858488;
+  background: #E2E2E2;
 }
 
 body {
@@ -55,3 +55,74 @@ code {
 }
 
 
+.coolRed {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.4s ease-in-out;
+  will-change: transform;
+}
+
+.coolRed::after {
+  background-color: #B60000;
+  border-radius: 10px;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: transform 0.3s ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+
+.coolRed:hover::after {
+  transform: translate(0, 0);
+}
+
+.coolRed:hover {
+  border: 2px solid transparent;
+  color: #ffffff;
+  transform: scale(1.05);
+  will-change: transform;
+}
+
+.coolgray {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.4s ease-in-out;
+  will-change: transform;
+}
+
+.coolgray::after {
+  background-color: #628C7C;
+  border-radius: 10px;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: transform 0.3s ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+
+.coolgray:hover::after {
+  transform: translate(0, 0);
+}
+
+.coolgray:hover {
+  border: 2px solid transparent;
+  color: #ffffff;
+  transform: scale(1.05);
+  will-change: transform;
+}
