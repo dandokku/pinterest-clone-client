@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: poppins;
-  src: url('/public/fonts/Poppins/Poppins-Regular.ttf');
+  src: url('/public/fonts/Poppins/Poppins-Medium.ttf');
 }
 
 * {
@@ -12,6 +12,7 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: poppins;
 }
 
 body {
@@ -123,6 +124,5 @@ code {
 .coolgray:hover {
   border: 2px solid transparent;
   color: #ffffff;
-  transform: scale(1.05);
   will-change: transform;
 }
