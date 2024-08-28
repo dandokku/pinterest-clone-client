@@ -113,34 +113,34 @@ const HeroSection = () => {
             <div className="flex flex-col gap-4">
               <img
                 src={slide.images[0]}
-                alt={`Slide Image 1`}
+                alt={`This is the nymber 1`}
                 className="object-cover rounded-full border-4 border-white"
               />
               <img
                 src={slide.images[1]}
-                alt={`Slide Image 2`}
+                alt={`This is the nymber 2`}
                 className="object-cover rounded-full border-4 border-white"
               />
               <img
                 src={slide.images[2]}
-                alt={`Slide Image 3`}
+                alt={`This is the nymber 3`}
                 className="object-cover rounded-full border-4 border-white"
               />
             </div>
             <div className="flex flex-col gap-4">
               <img
                 src={slide.images[3]}
-                alt={`Slide Image 4`}
+                alt={`This is the nymber 4`}
                 className="object-cover rounded-full border-4 border-white"
               />
               <img
                 src={slide.images[4]}
-                alt={`Slide Image 5`}
+                alt={`This is the nymber 5`}
                 className="object-cover rounded-full border-4 border-white"
               />
               <img
                 src={slide.images[5]}
-                alt={`Slide Image 6`}
+                alt={`This is the nymber 6`}
                 className="object-cover rounded-full border-4 border-white"
               />
             </div>
